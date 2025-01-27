@@ -8,7 +8,7 @@ import numpy as np
 
 class Neuron:
     """
-    This class defines a single neuron that mimicas the behaavior of tensorflow
+    This class defines a single neuron that mimics the behavior of tensorflow
 
     By default, the bias b is initialized to 0.
     Upon instantiation, a neuron takes in a single parameter:
@@ -18,7 +18,7 @@ class Neuron:
         """
         class constructor
 
-        This is how the class is called upon instatiation
+        This is how the class is called upon instantiation
         """
         if not isinstance(nx, int):
             raise TypeError("nx must be an integer")
@@ -26,5 +26,4 @@ class Neuron:
             raise ValueError("nx must be a positive integer")
         self.W = np.random.randn(1, nx)
         self.b = 0
-        self.A = 0 
-        
+        self.A = 0

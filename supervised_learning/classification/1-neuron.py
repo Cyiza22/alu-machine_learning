@@ -51,4 +51,3 @@ class Neuron:
         Getter for private class attribute __A
         """
         return (self.__A)
-    
