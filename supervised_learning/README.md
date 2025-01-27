@@ -1,1 +1,1 @@
-classification
+supervised_learning
